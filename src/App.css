@@ -1,0 +1,396 @@
+*,
+*::after,
+*::before{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+a{
+  text-decoration: none;
+  color: white;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height:8vh;
+  background-color: #94618E;
+  width: 1555px;
+  margin: default;
+  gap:6rem;
+}
+
+.nav_brand{
+
+font-weight: bold;
+align-items: center;
+list-style: none;
+margin-right:90px;
+font-style: italic;
+
+color: white;
+
+}
+
+.nav_menu{
+  display: flex;
+  align-items: center;
+  gap:3rem;
+  font-style: italic;
+  font-weight: 1000;
+  margin-left:100px;
+}
+.nav1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height:90vh;
+  background-color: lightgrey;
+  width: 1690px;
+}
+.nav_menu1{
+  align-items: center;
+  gap:3rem;
+}
+.hero-content{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap:36px;
+}
+.nav2{
+ list-style: none;
+  background-color: gray;
+ width: 1690px;
+ height: 90vh;
+}
+
+.container {
+  text-align: center;
+  margin:0;
+  display: flex;
+ text-justify: auto;
+  align-items: center;
+  margin-left:350px;
+  width:4000px;
+ }
+
+ .heading{
+  font-size:30px;
+  font-weight:600 ;
+  margin-left: 50px;
+  margin-top: 30px;
+  font-style: italic;
+ }
+
+  .hai{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    list-style: none;
+    gap: 120px;
+    width:1690px;
+    font-style: italic;
+    font-weight: 600;
+     color: darkblack;
+    margin-left:40px;
+    font-style: italic;
+
+  }
+  .hai1{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    list-style: none;
+    gap: 120px;
+    width:1690px;
+    font-style: italic;
+    font-weight: 600;
+     color: white;
+    margin-left:20px;
+    font-style: italic;
+
+  }
+  .brand-icons{
+    display: flex;
+    gap:16px;
+    margin-bottom:8px;
+  }
+
+  /* in order to small the image size */
+  img{
+    max-width: 150%;
+    max-height:250%;
+    margin-left: 300px;
+    padding: 6px 16px;
+    bottom: 20%;
+    gap:400px;
+    /* magin top -100px to align the image on top side */
+    margin-top: -100px;
+  
+  }
+  .joy{
+    width:300px;
+    height: 400px;
+   margin-top: -20px;
+ 
+  }
+  .h1{
+    margin-left: 240px;
+    text-align: center;
+    margin-top: 2px;
+    font-size:60px;
+    font-style: italic;
+    font-weight: 1000;
+   }
+   .h2
+   {
+    margin-left:355px;
+    text-align: center;
+    margin-top: 2px;
+    font-size: 50px;
+    font-style: italic;
+   }
+   .circle{
+    text-align: center;
+    margin-left:800px;
+    width:100px;
+    height:95px;
+    border-radius:150%;
+    background-color:#37D3CC;
+    color: white;
+    justify-content: center;
+    display: flex;
+    font-size: 14px;
+    margin-bottom: 30px;
+    margin-top: -350px;
+    font-weight: 600;
+    align-items: center;
+    font-style: italic;
+    font-weight: 1000;
+   }
+   .circle1{
+    text-align: center;
+    margin-left: 950px;
+    width:100px;
+    height:95px;
+    border-radius:150%;
+    background-color:#342D50;
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin-top: -120px;
+    font-size: 14px;
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+    font-style: italic;
+    font-weight: 1000;
+   }
+   .circle2{
+    text-align: center;
+    margin-left: 1100px;
+    width:100px;
+    height:95px;
+    border-radius:150%;
+    background-color:#f9a052;
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin-top: -95px;
+    font-size: 14px;
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+    font-style: italic;
+    font-weight: 1000;
+   }
+   .p{
+    font-weight: 800;
+    color:var(--gray);
+    max-width: 400px;
+    margin-left: 800px;
+    gap: 400px;
+    margin-top: -5px;
+    padding: 15px;
+    font-style: italic;
+    font-weight: 1000;
+    margin-top: 20px;
+   }
+
+   .nav4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:9vh;
+    background-color: #94618E;
+    width: 1555px;
+   margin-top:200px;
+   margin-top:40px;
+  }
+
+  img1{
+    max-width: 60%;
+    max-height:80%;
+    margin-right:4000%;
+    margin-top:-31px;
+    padding: 15px;
+  }
+  .joy1{
+    width:60px;
+    height: 60px;
+    margin-right:2000px;
+    padding: 15px;
+    margin-top:-31px;
+   }
+
+
+
+  .p1{
+    font-weight: 400;
+    margin-left: 270px;
+    margin-top: 10px;
+    padding: -120px;
+   }
+
+   img2{
+    max-width: 60%;
+    max-height:80%;
+    margin-left:-900%;
+    margin-top:-31px;
+    padding: 15px;
+  }
+  .joy2{
+    width:60px;
+    height: 60px;
+    margin-left:-900px;
+    padding: 15px;
+    margin-top:-31px;
+   }
+
+
+
+  .p2{
+    font-weight: 400;
+    margin-right:1000px;
+    margin-top: 10px;
+    padding: -120px;
+   }
+
+   .nav_brand1{
+
+    font-weight: bold;
+    align-items: center;
+    list-style: none;
+    margin-left:10px;
+    font-style: italic;
+    font-weight: 1000;
+    
+    }
+
+
+    .phone{
+  max-width: 40px;
+  max-height:40px;
+  margin-top: -600px;
+  margin-left: 400px;
+  }
+
+.phonetxt p{
+  color: rgb(255, 255, 255);
+  margin-left: -600px;
+  margin-top: -50px;
+  margin-bottom: 60px;
+  
+
+}
+
+.email{
+  max-width: 40px;
+  max-height:40px;
+  margin-left: 30vh;
+  
+ margin-bottom: 100px;
+
+} 
+
+.circle-logo{
+  max-width: 40px;
+  max-height:40px;
+  margin-left: 75vh;
+  margin-bottom: 400px;
+}
+
+.copyright{
+  max-width: 40px;
+  max-height:40px;
+  margin-left: 112vh;
+  margin-bottom: 300px;
+}
+
+
+
+/* .phone-email p{
+  margin-left: -190px;
+  margin-top: 22px;
+  color: rgb(255, 255, 255);
+} */
+
+/* .follow-me p{
+  margin-left: 360px;
+  margin-top: -20px;
+  color: rgb(255, 255, 255);
+} */
+
+/* .copy p{
+  word-wrap:break-word;
+  
+  margin-top: -20px;
+  margin-right: -960px;
+  margin-inline-end: -1100px;
+  color: rgb(255, 255, 255); */
+  
+/* } */ 
+
+.phone{
+  max-width: -300px;
+  max-height: -300px;
+  margin-left: 150px;
+  font-size: larger;
+color: white;
+}
+.whatsap
+{
+  max-width: -300px;
+  max-height: -300px;
+  margin-left:220px;
+  font-size: larger;
+  color: white;
+}
+.msg{
+  max-width: -300px;
+  max-height: -300px;
+  margin-left:280px;
+  font-size: larger;
+  color: white;
+}
+.email{
+  max-width: -300px;
+  max-height: -300px;
+  margin-left:300px;
+  font-size: larger;
+  color: white;
+}
+.home{
+  font-size: larger;
+  color: white;
+  margin-right: -900px;
+}
+
+.d-flex{
+  display: flex;
+}
+.text-white{
+  color: white;
+}
